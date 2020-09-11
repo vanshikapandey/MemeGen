@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.memeclass{
+    background:#fad390;
+    padding: 0px ;
+}
+.memeclass h1{
+    background:black;
+    font-family:'Sriracha', cursive;
+    color:#F8EFBA;
+    margin-top: 0px;
+    font-size: 45px;
+    padding: 10px;
+}
+.memeclass button{
+    background:black;
+    padding:8px 8px 8px 8px;
+    border-radius:50px;
+    color:#F8EFBA;
+}
+.memeclass img{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+.main-div{
+    background:#fad390;
+    margin:0;
+    font-size:30px;
+}
+.main-div h1{
+    font-family: 'Josefin Sans', sans-serif;
+    background:black;
+    padding-top:20px;
+    color:#F8EFBA;
+}
+.main-div2{
+    padding-bottom: 20px;
+}
+.main-div2 button{
+    background:black;
+    padding:8px 8px 8px 8px;
+    border-radius:50px;
+    color:#F8EFBA;
+}
+
+h1{
+    padding:20px;
+    background:black;
+    color:#F8EFBA;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ i{
+    padding:0 1% 0 1%;
+    color:#F8EFBA;
+    font-size:30px;
+}
+ h2{
+    padding-top:20px;
+    font-size:35px;
+    color:black;
+    font-family: 'Sriracha', cursive;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        overflow:auto;
+    }
+    .memeclass h1{
+        font-size: 30px;
+    }
+    .memeclass img{
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        padding-top: 60px;
+    }
+    .memeclass button{
+        font-size: 16px;
+    }
+    .main-div h1{
+        font-size: 30px;
+    }
+    .main-div2 button{
+        font-size: 16px;
+    }
+    i{
+        font-size: 18px;
+        padding:0 1.75% 0 1.75%;
+    }
+    h1{
+        font-size: 15px;
+        overflow: auto;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:768px){
+    *{
+        overflow:auto;
+    }
+    .memeclass img{
+        width: 600px;
+        height: 600px;
+        padding-top: 60px;
+    }
+    .memeclass h1{
+        font-size: 50px;
+    }
+    .memeclass button{
+        font-size: 30px;
+        padding:15px 15px 15px 15px;
+    }
+    .main-div2 button{
+        font-size: 30px;
+        padding:15px 15px 15px 15px;
+    }
+}
